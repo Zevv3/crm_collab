@@ -1,1 +1,116 @@
 /* Raul's Sign UP CSS Here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 72px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+.wrap {
+  display: flex;
+
+  height: 95vh;
+}
+.inline {
+  max-width: 600px;
+  margin: auto;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 30px;
+}
+
+.input-field {
+  width: 600px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper-1 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  height: 800px;
+  padding-top: 50%;
+  transform: translate(0, -80%);
+}
+.wrapper-2 {
+  width: 60%;
+  height: 800px;
+}
+img {
+  width: 70%;
+  height: 100%;
+  margin-top: 20%;
+}
+.lastp {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.twitter {
+  margin: 50px;
+  margin: 0;
+  height: 40px;
+  width: 40px;
+}
+.btn1 {
+  font-size: 30px;
+  padding: 10px 60px;
+  border-radius: 50px;
+  font-weight: 700;
+  color: white;
+  border: solid 5px black;
+}
+.btn1 {
+  border-color: #0850f8;
+  background-color: #0850f8;
+}
+.btn1:hover {
+  background-color: white;
+  color: #0850f8;
+  transition: 0.3s ease;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.links a {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.links a:hover {
+  background-color: #0850f8;
+  transition: 0.3s ease;
+  color: #000000;
+}
