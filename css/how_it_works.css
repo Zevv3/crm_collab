@@ -1,1 +1,232 @@
 /* Kathy's CSS Here */
+body, html {
+    margin-top: 1vh;
+}
+
+#logo {
+    margin-left:-5vh;
+}
+
+nav a:link {
+    text-decoration:none;
+    color:black;
+    font-family:rubik;
+    font-size:12px;
+}
+
+nav a:visited {
+    text-decoration:none;
+    color:black;
+    font-family:rubik;
+}
+
+#signinbutton input[type=button] {
+    font-family:rubik;
+    color:#0850F8;
+    font-size:16px;
+    border-radius:7px;
+    border:2px solid #0850F8;
+    background-color: white;
+    padding:0.5vh 2vh 0.5vh 2vh;
+}
+
+#signinbutton input[type=button]:hover {
+    font-family:rubik;
+    color:white;
+    font-size:16px;
+    border-radius:7px;
+    border:2px solid white;
+    background-color: #0850F8;
+    padding:0.5vh 2vh 0.5vh 2vh;
+}
+
+#trybutton input[type=button] {
+    font-family:rubik;
+    color:white;
+    font-size:16px;
+    border-radius:7px;
+    border:2px solid white;
+    background-color: #0850F8;
+    padding:0.5vh 2vh 0.5vh 2vh;
+}
+
+#trybutton input[type=button]:hover {
+    font-family:rubik;
+    color:#0850F8;
+    font-size:16px;
+    border-radius:7px;
+    border:2px solid #0850F8;
+    background-color: white;
+    padding:0.5vh 2vh 0.5vh 2vh;
+}
+
+header hr {
+    color:white;
+    padding:2%;
+}
+
+header h1{
+    font-family:rubik;
+    font-size:75px;
+}
+
+header h2{
+    font-family:rubik;
+    font-size:40px;
+}
+
+header p{
+    font-family: rubik;
+    font-weight:bold;
+    color:gray;
+    font-size:22px;
+}
+
+#signupbutton input[type=button] {
+    font-family:rubik;
+    background-color: #0850F8;
+    color:white;
+    font-size:22px;
+    border-radius:15px;
+    border: 2px solid white;
+    padding:2vh 3vh 2vh 3vh;
+    margin-right:1vh;
+}
+
+#signupbutton input[type=button]:hover {
+    font-family:rubik;
+    background-color: white;
+    color:#0850F8;
+    font-size:22px;
+    border-radius:15px;
+    border: 2px #0850F8 solid;
+    padding:2vh 3vh 2vh 3vh;
+    margin-right:1vh;
+}
+
+#chatbutton input[type=button] {
+    font-family:rubik;
+    background-color: white;
+    color:#0850F8;
+    font-size:22px;
+    border-radius:15px;
+    border: 2px #0850F8 solid;
+    padding:2vh 3vh 2vh 3vh;
+}
+
+#chatbutton input[type=button]:hover {
+    font-family:rubik;
+    background-color: #0850F8;
+    color:white;
+    font-size:22px;
+    border-radius:15px;
+    border: 2px solid white;
+    padding:2vh 3vh 2vh 3vh;
+    margin-right:1vh;
+}
+
+header img {
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
+#smallimg {
+    width:auto;
+    height:24px;
+}
+
+#b-bullet {
+    color:#0850F8;
+    border:2px solid #0850F8;
+    background-color:#0850f8;
+    border-radius:100%;
+    font-size:3px;
+    margin:2vh;
+}
+
+.how hr {
+    margin:1% 30% 3% 30%;
+}
+
+.how h4 {
+    font-family:rubik;
+    text-align:center;
+    font-size:26px;
+    margin:0 25% 0 25%;
+}
+
+.collect hr {
+    margin:3% 30% 3% 30%;
+    color:white;
+}
+
+.collect img {
+    border:1px gray solid;
+    padding:15%;
+    border-radius:5% 0 0 5%;
+}
+
+.collecttext {
+    font-family:rubik;
+    font-weight:bold;
+    background-color:#0850F8;
+    color:white;
+    border:1px gray solid;
+    border-radius:0 5% 5% 0;
+    padding:27.5% 10% 30% 10%;
+    margin-left:-3vh;
+    height:100%;
+}
+
+.paid img {
+    border:1px gray solid;
+    padding:11.75% 20% 11% 15%;
+    border-radius:5% 0 0 5%;
+}
+
+.paid hr {
+    margin:3% 30% 3% 30%;
+    color:white;
+}
+
+footer {
+    background: #0850F8;
+    text-align:center;
+    padding:5vh 0 11vh 0;
+}
+
+footer h1 {
+    color:white;
+    font-family:rubik;
+    font-weight:bold;
+}
+
+footer h4 {
+    color:white;
+    font-family:rubik;
+}
+
+footer input[type=button] {
+    margin:2vh 0 2vh 0;
+}
+
+#w-bullet {
+    color:white;
+    border:2px solid white;
+    background-color:white;
+    border-radius:100%;
+    font-size:3px;
+    margin:2vh;
+}
+
+#getstarted input[type=button] {
+    font-family:rubik;
+    color:white;
+    font-size:16px;
+    border-radius:7px;
+    border:2px solid forestgreen;
+    background-color: forestgreen;
+    padding:0.5vh 2vh 0.5vh 2vh;
+    margin-right:1vh;
+}
