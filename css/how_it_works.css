@@ -38,6 +38,7 @@ nav a:visited {
     border:2px solid white;
     background-color: #0850F8;
     padding:0.5vh 2vh 0.5vh 2vh;
+    transition:0.2s ease;
 }
 
 #trybutton input[type=button] {
@@ -58,6 +59,7 @@ nav a:visited {
     border:2px solid #0850F8;
     background-color: white;
     padding:0.5vh 2vh 0.5vh 2vh;
+    transition:0.2s ease;
 }
 
 header hr {
@@ -102,6 +104,7 @@ header p{
     border: 2px #0850F8 solid;
     padding:2vh 3vh 2vh 3vh;
     margin-right:1vh;
+    transition:0.2s ease;
 }
 
 #chatbutton input[type=button] {
@@ -123,6 +126,7 @@ header p{
     border: 2px solid white;
     padding:2vh 3vh 2vh 3vh;
     margin-right:1vh;
+    transition:0.2s ease;
 }
 
 header img {
@@ -165,6 +169,8 @@ header img {
     border:1px gray solid;
     padding:15%;
     border-radius:5% 0 0 5%;
+    height:100%;
+    width:auto;
 }
 
 .collecttext {
@@ -183,6 +189,9 @@ header img {
     border:1px gray solid;
     padding:11.75% 20% 11% 15%;
     border-radius:5% 0 0 5%;
+    width:auto;
+    height:100%;
+    margin:auto;
 }
 
 .paid hr {
